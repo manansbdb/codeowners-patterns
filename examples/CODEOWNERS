@@ -1,0 +1,17 @@
+# CODEOWNERS example / Exemplo CODEOWNERS
+# Replace ORG/team with your GitHub teams / Substitua ORG/team pelas suas equipas
+
+# Default owners / Owners default
+*       @ORG/platform-team
+
+# Apps / Aplicações
+/apps/web/          @ORG/frontend-team
+/apps/api/          @ORG/backend-team
+
+# Infra / Infraestrutura
+/.github/           @ORG/platform-team
+/infra/             @ORG/sre-team
+
+# Docs
+/docs/              @ORG/docs-team
+*.md                @ORG/docs-team
